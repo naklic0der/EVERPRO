@@ -16,6 +16,8 @@ You will also see any lint errors in the console.
 1.To download new dependencies: `npm install --save <DEPENDENCY_NAME>`\
 2.While contributing, **DO NOT PUSH YOUR BUILD OR NODE MODULES FOLDER**
 
+> to start backend stuff, you need to first configure frontend part as stated above, and then run `npm run build`
+
 ## Backend
 
 Go to backend / everpro ,
