@@ -1,9 +1,10 @@
 <p align="center">
-  <a href=""><img src="./icon.jpeg" alt="EverPro" width="298" /></a> 
+  <a href=""><img src="./temp.gif" alt="EverPro" width="298" /></a> 
 </p>
 
 <p align="center">
-  EverPro is a fast, robust product intelligence api for bussiness devolepment.
+  <h1>EverPro</h1>
+  <h4>A fast, robust product intelligence api for bussiness devolepment.</h4>
 </p>
 
 
