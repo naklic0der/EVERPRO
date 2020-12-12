@@ -1,0 +1,105 @@
+.errorlist {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: red;
+  font-size: 14px;
+}
+.section-hero {
+  position: relative;
+  background-image: url("../img/image01.jpg");
+  height: calc(100vh - 50px);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.register-page.section-hero {
+  height: calc(100vh - 117px);
+}
+.section-titles-wrapper,
+.section-banner .banner-texts .banner-title-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.big-title {
+  font-size: calc(32px + 45 * ((100vw - 320px) / 1280));
+  letter-spacing: calc(2px + 3 * ((100vw - 320px) / 1280));
+}
+h3.small-title {
+  font-size: calc(18px + 22 * ((100vw - 320px) / 1280));
+}
+h4.small-title {
+  font-size: calc(16px + 20 * ((100vw - 320px) / 1280));
+}
+.section-banner .banner-image {
+  background-image: url("../img/image02.jpg");
+  min-height: 75vh;
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-banner .banner-texts {
+  position: relative;
+  min-height: 35vh;
+}
+.section-parallax {
+  position: relative;
+  background-image: url("../img/image03.jpg");
+  height: calc(100vh - 50px);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-join {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: calc(16px + 10 * ((100vw - 320px) / 1280));
+  color: black;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 2px 20px;
+}
+.btn-join .btn-light-color {
+  color: white;
+}
+
+.support-manager .avatar {
+  float: left;
+  width: 115px;
+}
+.support-manager .avatar img {
+  max-width: 100px;
+}
+.support-manager .avatar .button-group {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.support-manager .contact-section {
+  float: left;
+  width: calc(100% - 115px);
+}
+.contact-section {
+  position: relative;
+}
+.contact-section .contact-name {
+  font-size: 20px;
+  font-weight: 700;
+}
+.contact-section .icon {
+  float: left;
+  width: 30px;
+  font-size: 20px;
+}
+.contact-section .description {
+  float: left;
+  width: calc(100% - 30px);
+}
+.contact-section .description p {
+  margin-bottom: 0;
+}
